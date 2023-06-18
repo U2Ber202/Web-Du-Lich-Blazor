@@ -7,4 +7,12 @@
     <RootNamespace>Website_Du_lich</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Havit.Blazor.Components.Web.Bootstrap" Version="4.0.2" />
+  </ItemGroup>
+
 </Project>

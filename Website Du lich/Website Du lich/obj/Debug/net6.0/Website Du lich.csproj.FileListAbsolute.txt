@@ -1,0 +1,53 @@
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\appsettings.json
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Website Du lich.staticwebassets.runtime.json
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Website Du lich.exe
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Website Du lich.deps.json
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Website Du lich.runtimeconfig.json
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Website Du lich.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Website Du lich.pdb
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\Website Du lich.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\Website Du lich.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\Website Du lich.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\Website Du lich.AssemblyInfo.cs
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\Website Du lich.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\Website Du lich.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\Website Du lich.RazorAssemblyInfo.cache
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\Website Du lich.RazorAssemblyInfo.cs
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\staticwebassets\msbuild.Website Du lich.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\staticwebassets\msbuild.build.Website Du lich.props
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Website Du lich.props
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Website Du lich.props
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\scopedcss\bundle\Website Du lich.styles.css
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\scopedcss\projectbundle\Website Du lich.bundle.scp.css
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\Website Du lich.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\refint\Website Du lich.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\Website Du lich.pdb
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\Website Du lich.genruntimeconfig.cache
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\ref\Website Du lich.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Havit.Blazor.Components.Web.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Havit.Blazor.Components.Web.Bootstrap.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Havit.Core.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Microsoft.Extensions.Localization.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Microsoft.JSInterop.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\cs\Havit.Blazor.Components.Web.Bootstrap.resources.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\it-IT\Havit.Blazor.Components.Web.Bootstrap.resources.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\zh-CN\Havit.Blazor.Components.Web.Bootstrap.resources.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\obj\Debug\net6.0\Website Du lich.csproj.CopyComplete

@@ -1,0 +1,32 @@
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\bin\Debug\net6.0\appsettings.json
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\bin\Debug\net6.0\Mock-up website.staticwebassets.runtime.json
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\bin\Debug\net6.0\Mock-up website.exe
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\bin\Debug\net6.0\Mock-up website.deps.json
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\bin\Debug\net6.0\Mock-up website.runtimeconfig.json
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\bin\Debug\net6.0\Mock-up website.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\bin\Debug\net6.0\Mock-up website.pdb
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\Mock-up website.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\Mock-up website.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\Mock-up website.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\Mock-up website.AssemblyInfo.cs
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\Mock-up website.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\Mock-up website.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\Mock-up website.RazorAssemblyInfo.cache
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\Mock-up website.RazorAssemblyInfo.cs
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\staticwebassets\msbuild.Mock-up website.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\staticwebassets\msbuild.build.Mock-up website.props
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Mock-up website.props
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Mock-up website.props
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\scopedcss\bundle\Mock-up website.styles.css
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\scopedcss\projectbundle\Mock-up website.bundle.scp.css
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\Mock-up website.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\refint\Mock-up website.dll
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\Mock-up website.pdb
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\Mock-up website.genruntimeconfig.cache
+C:\Users\Administrator\Documents\GitHub\Web-Du-Lich-Blazor\Mock-up website\Mock-up website\obj\Debug\net6.0\ref\Mock-up website.dll

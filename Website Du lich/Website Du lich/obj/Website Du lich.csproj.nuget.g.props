@@ -12,4 +12,8 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\Administrator\.nuget\packages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)havit.blazor.components.web\4.0.2\buildTransitive\Havit.Blazor.Components.Web.props" Condition="Exists('$(NuGetPackageRoot)havit.blazor.components.web\4.0.2\buildTransitive\Havit.Blazor.Components.Web.props')" />
+    <Import Project="$(NuGetPackageRoot)havit.blazor.components.web.bootstrap\4.0.2\buildTransitive\Havit.Blazor.Components.Web.Bootstrap.props" Condition="Exists('$(NuGetPackageRoot)havit.blazor.components.web.bootstrap\4.0.2\buildTransitive\Havit.Blazor.Components.Web.Bootstrap.props')" />
+  </ImportGroup>
 </Project>
