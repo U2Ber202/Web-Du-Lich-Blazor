@@ -1,15 +1,12 @@
 using Microsoft.EntityFrameworkCore;
 using Website_Du_lich.Context;
-using Havit.Blazor.Components.Web.Bootstrap;
-using Havit.Blazor.Components.Web;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddHxServices();
-builder.Services.AddScoped<ApplicationDBContext>();
+builder.Services.AddScoped<DataService>();
 
 //Connection to the database
 builder.Services.AddDbContext<ApplicationDBContext>(item=>item.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));

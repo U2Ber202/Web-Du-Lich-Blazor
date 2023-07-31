@@ -1,7 +1,10 @@
-﻿namespace Website_Du_lich.Data
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Website_Du_lich.Data
 {
     public class CustomerModel
     {
+        [Key]
         public int CustomerId { get; set; }
         public string FullName { get; set; }
         public string Email { get; set; }

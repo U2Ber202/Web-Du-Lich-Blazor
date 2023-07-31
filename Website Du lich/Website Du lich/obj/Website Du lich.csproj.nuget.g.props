@@ -14,7 +14,9 @@
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.9\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.9\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props')" />
-    <Import Project="$(NuGetPackageRoot)havit.blazor.components.web\4.0.5\buildTransitive\Havit.Blazor.Components.Web.props" Condition="Exists('$(NuGetPackageRoot)havit.blazor.components.web\4.0.5\buildTransitive\Havit.Blazor.Components.Web.props')" />
-    <Import Project="$(NuGetPackageRoot)havit.blazor.components.web.bootstrap\4.0.5\buildTransitive\Havit.Blazor.Components.Web.Bootstrap.props" Condition="Exists('$(NuGetPackageRoot)havit.blazor.components.web.bootstrap\4.0.5\buildTransitive\Havit.Blazor.Components.Web.Bootstrap.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design\7.0.9\build\net6.0\Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design\7.0.9\build\net6.0\Microsoft.EntityFrameworkCore.Design.props')" />
   </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\tedok\.nuget\packages\microsoft.entityframeworkcore.tools\7.0.9</PkgMicrosoft_EntityFrameworkCore_Tools>
+  </PropertyGroup>
 </Project>

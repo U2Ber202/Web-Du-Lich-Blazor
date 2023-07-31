@@ -1,0 +1,59 @@
+﻿@page "/AddTour"
+@using Website_Du_lich.Context
+@using Website_Du_lich.Data
+@inject NavigationManager NavigationManager
+@inject DataService dataService
+
+<h3>AddingTour</h3>
+
+<form>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="form-group">
+                <label for="name" class="control-label">Tour Name</label>
+                <input from="TourName" class="form-control" @bind="@tourObj.TourName" />
+            </div>
+            <div class="form-group">
+                <label for="destination" class="control-label">Destination</label>
+                <input from="Destination" class="form-control" @bind="@tourObj.Destination" />
+            </div>
+            <div class="form-group">
+                <label for="startdate" class="control-label">Start Date</label>
+                <input from="StartDate" class="form-control" @bind="@tourObj.StartDate" />
+            </div>
+            <div class="form-group">
+                <label for="enddate" class="control-label">End Date</label>
+                <input from="EndDate" class="form-control" @bind="@tourObj.EndDate" />
+            </div>
+            <div class="form-group">
+                <label for="description" class="control-label">Description</label>
+                <input from="Description" class="form-control" @bind="@tourObj.Description" />
+            </div>
+            <div class="form-group">
+                <label for="price" class="control-label">Price</label>
+                <input from="Price" class="form-control" @bind="@tourObj.Price" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <input type="button" class="btn btn-primary" @onclick="@CreateNewTourDetail" value="Save" />
+                <input type="button" class="btn btn-danger" @onclick="@Cancel" value="Cancel" />
+            </div>
+        </div>
+    </div>
+</form>
+
+@code {
+    TourModel tourObj = new TourModel();
+    protected async Task CreateNewTourDetail()
+    {
+        await dataService.AddNewTour(tourObj);
+        NavigationManager.NavigateTo("tourlist");
+    }
+    protected async void Cancel()
+    {
+        NavigationManager.NavigateTo("tourlist");
+    }
+}

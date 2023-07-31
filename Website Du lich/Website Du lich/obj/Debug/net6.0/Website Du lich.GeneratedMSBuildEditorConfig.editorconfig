@@ -20,8 +20,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/GitHub/Web-Du-Lich-Blazor/Website Du lich/Website Du lich/Pages/AddingTour.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkaW5nVG91ci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/GitHub/Web-Du-Lich-Blazor/Website Du lich/Website Du lich/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/Web-Du-Lich-Blazor/Website Du lich/Website Du lich/Pages/TourList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG91ckxpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/GitHub/Web-Du-Lich-Blazor/Website Du lich/Website Du lich/_Imports.razor]

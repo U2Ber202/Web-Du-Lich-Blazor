@@ -1,7 +1,10 @@
-﻿namespace Website_Du_lich.Data
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Website_Du_lich.Data
 {
     public class TourModel
     {
+        [Key]
         public int TourId { get; set; }
         public string TourName { get; set; }
         public string Destination { get; set; }

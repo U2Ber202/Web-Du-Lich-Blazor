@@ -1,7 +1,10 @@
-﻿namespace Website_Du_lich.Data
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Website_Du_lich.Data
 {
     public class OrdersModel
     {
+        [Key]
         public int OrderId { get; set; }
         public int CustomerId { get; set; }
         public int TourId { get; set; }
