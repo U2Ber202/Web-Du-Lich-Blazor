@@ -13,7 +13,8 @@
     <SourceRoot Include="C:\Users\tedok\.nuget\packages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)havit.blazor.components.web\4.0.2\buildTransitive\Havit.Blazor.Components.Web.props" Condition="Exists('$(NuGetPackageRoot)havit.blazor.components.web\4.0.2\buildTransitive\Havit.Blazor.Components.Web.props')" />
-    <Import Project="$(NuGetPackageRoot)havit.blazor.components.web.bootstrap\4.0.2\buildTransitive\Havit.Blazor.Components.Web.Bootstrap.props" Condition="Exists('$(NuGetPackageRoot)havit.blazor.components.web.bootstrap\4.0.2\buildTransitive\Havit.Blazor.Components.Web.Bootstrap.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.9\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\7.0.9\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props')" />
+    <Import Project="$(NuGetPackageRoot)havit.blazor.components.web\4.0.5\buildTransitive\Havit.Blazor.Components.Web.props" Condition="Exists('$(NuGetPackageRoot)havit.blazor.components.web\4.0.5\buildTransitive\Havit.Blazor.Components.Web.props')" />
+    <Import Project="$(NuGetPackageRoot)havit.blazor.components.web.bootstrap\4.0.5\buildTransitive\Havit.Blazor.Components.Web.Bootstrap.props" Condition="Exists('$(NuGetPackageRoot)havit.blazor.components.web.bootstrap\4.0.5\buildTransitive\Havit.Blazor.Components.Web.Bootstrap.props')" />
   </ImportGroup>
 </Project>

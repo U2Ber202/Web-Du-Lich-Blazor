@@ -1,0 +1,81 @@
+﻿@page "/tourlist"
+@using Website_Du_lich.Context
+@using Website_Du_lich.Data
+@inject DataService dataService
+
+<h3>TourList</h3>
+
+<NavLink class="nav-link" href="AddTour">
+    <span class="oi oi-plus" aria-hidden="true"> Add New Tour</span>
+</NavLink>
+
+@if (tourObj is null)
+{
+    <p><em>Loading ..........! </em></p>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Tour No
+                </th>
+                <th>
+                    Tour Name
+                </th>
+                <th>
+                    Destination
+                </th>
+                <th>
+                    Start Date
+                </th>
+                <th>
+                    End Date
+                </th>
+                <th>
+                    Description
+                </th>
+                <th>
+                    Price
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var tours in tourObj)
+            {
+                <tr>
+                    <td>
+                        @tours.TourId
+                    </td>
+                    <td>
+                        @tours.TourName
+                    </td>
+                    <td>
+                        @tours.Destination
+                    </td>
+                    <td>
+                        @tours.StartDate
+                    </td>
+                    <td>
+                        @tours.EndDate
+                    </td>
+                    <td>
+                        @tours.Description
+                    </td>
+                    <td>
+                        @tours.Price
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    List<TourModel> tourObj;
+    protected override async Task OnInitializedAsync()
+    {
+        tourObj = await Task.Run(() => dataService.GetAllTours());
+    }
+}

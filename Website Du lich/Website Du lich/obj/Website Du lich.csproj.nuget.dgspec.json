@@ -42,7 +42,15 @@
           "dependencies": {
             "Havit.Blazor.Components.Web.Bootstrap": {
               "target": "Package",
-              "version": "[4.0.2, )"
+              "version": "[4.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
             }
           },
           "imports": [

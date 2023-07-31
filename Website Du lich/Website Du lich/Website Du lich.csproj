@@ -8,11 +8,25 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Data\" />
+    <Content Remove="Pages\TourList.razor" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Havit.Blazor.Components.Web.Bootstrap" Version="4.0.2" />
+    <PackageReference Include="Havit.Blazor.Components.Web.Bootstrap" Version="4.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\TourList.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\TourList.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\TourList.razor" />
   </ItemGroup>
 
 </Project>
