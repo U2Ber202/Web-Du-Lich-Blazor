@@ -18,5 +18,6 @@ namespace Website_Du_lich.Context
         public DbSet<PaymentModel> Payments { get; set; }
         public DbSet<HotelModel> Hotel { get; set; }
         public DbSet<ShuttleBookingModel> Shuttles { get; set; }
+        public DbSet<CarRentModel> CarRent { get; set; }
     }
 }

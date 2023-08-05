@@ -140,3 +140,4 @@ D:\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Sy
 D:\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\System.Text.Json.dll
 D:\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\libman.json
+D:\GitHub\Web-Du-Lich-Blazor\Website Du lich\Website Du lich\bin\Debug\net6.0\Dapper.dll

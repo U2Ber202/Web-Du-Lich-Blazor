@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "oJM07nDEZkreDvLaRBr/i97Wl+Z+oLgZ3j44IkNlJOIsmFhvVZl5PsfYkzTBGECLXaYxWuG2u4L0BS2P5eTnDA==",
+  "dgSpecHash": "IDWmvAFPbftrN1EOUdTClM6oy5zEf5zU/UbwxCutyOnzxuBJayLaWyhEXseBLeLerReWEWWQi0EU8ngsbN84JQ==",
   "success": true,
   "projectFilePath": "D:\\GitHub\\Web-Du-Lich-Blazor\\Website Du lich\\Website Du lich\\Website Du lich.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tedok\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\tedok\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\tedok\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512",
     "C:\\Users\\tedok\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tedok\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\tedok\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

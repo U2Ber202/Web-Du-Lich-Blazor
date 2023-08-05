@@ -12,5 +12,8 @@ namespace Website_Du_lich.Data
         public DateTime OrderDate { get; set; }
         public decimal TotalAmount { get; set; }
         public string Status { get; set; }
+        public int? HotelId { get; set; }
+        public int? SBId { get; set; }
+        public int? CarId { get; set; }
     }
 }
