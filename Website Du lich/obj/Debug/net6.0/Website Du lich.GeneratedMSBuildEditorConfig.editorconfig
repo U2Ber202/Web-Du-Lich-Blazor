@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Website_Du_lich
 build_property.RootNamespace = Website_Du_lich
-build_property.ProjectDir = C:\Users\trann\source\repos\Web-Du-Lich-Blazor-2\Website Du lich\Website Du lich\
+build_property.ProjectDir = D:\GitHub\Web-Du-Lich-Blazor\Website Du lich\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\trann\source\repos\Web-Du-Lich-Blazor-2\Website Du lich\Website Du lich
+build_property.MSBuildProjectDirectory = D:\GitHub\Web-Du-Lich-Blazor\Website Du lich
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/trann/source/repos/Web-Du-Lich-Blazor-2/Website Du lich/Website Du lich/App.razor]
+[D:/GitHub/Web-Du-Lich-Blazor/Website Du lich/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trann/source/repos/Web-Du-Lich-Blazor-2/Website Du lich/Website Du lich/Pages/AddingTour.razor]
+[D:/GitHub/Web-Du-Lich-Blazor/Website Du lich/Pages/AddingTour.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkaW5nVG91ci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trann/source/repos/Web-Du-Lich-Blazor-2/Website Du lich/Website Du lich/Pages/EditTour.razor]
+[D:/GitHub/Web-Du-Lich-Blazor/Website Du lich/Pages/EditTour.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFRvdXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trann/source/repos/Web-Du-Lich-Blazor-2/Website Du lich/Website Du lich/Pages/Home.razor]
+[D:/GitHub/Web-Du-Lich-Blazor/Website Du lich/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trann/source/repos/Web-Du-Lich-Blazor-2/Website Du lich/Website Du lich/Pages/Login.razor]
+[D:/GitHub/Web-Du-Lich-Blazor/Website Du lich/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trann/source/repos/Web-Du-Lich-Blazor-2/Website Du lich/Website Du lich/Pages/Register.razor]
+[D:/GitHub/Web-Du-Lich-Blazor/Website Du lich/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trann/source/repos/Web-Du-Lich-Blazor-2/Website Du lich/Website Du lich/Pages/TourList.razor]
+[D:/GitHub/Web-Du-Lich-Blazor/Website Du lich/Pages/TourList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG91ckxpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trann/source/repos/Web-Du-Lich-Blazor-2/Website Du lich/Website Du lich/Pages/ViewOrderDetails.razor]
+[D:/GitHub/Web-Du-Lich-Blazor/Website Du lich/Pages/ViewOrderDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld09yZGVyRGV0YWlscy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trann/source/repos/Web-Du-Lich-Blazor-2/Website Du lich/Website Du lich/_Imports.razor]
+[D:/GitHub/Web-Du-Lich-Blazor/Website Du lich/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trann/source/repos/Web-Du-Lich-Blazor-2/Website Du lich/Website Du lich/Shared/MainLayout.razor]
+[D:/GitHub/Web-Du-Lich-Blazor/Website Du lich/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-mnwotatbp5
 
-[C:/Users/trann/source/repos/Web-Du-Lich-Blazor-2/Website Du lich/Website Du lich/Shared/NavMenu.razor]
+[D:/GitHub/Web-Du-Lich-Blazor/Website Du lich/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-zi4ce4x9de
 
-[C:/Users/trann/source/repos/Web-Du-Lich-Blazor-2/Website Du lich/Website Du lich/Pages/Error.cshtml]
+[D:/GitHub/Web-Du-Lich-Blazor/Website Du lich/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trann/source/repos/Web-Du-Lich-Blazor-2/Website Du lich/Website Du lich/Pages/_Host.cshtml]
+[D:/GitHub/Web-Du-Lich-Blazor/Website Du lich/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trann/source/repos/Web-Du-Lich-Blazor-2/Website Du lich/Website Du lich/Pages/_Layout.cshtml]
+[D:/GitHub/Web-Du-Lich-Blazor/Website Du lich/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

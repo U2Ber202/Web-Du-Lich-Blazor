@@ -1,5 +1,6 @@
 ﻿@page "/login"
-
+@inject DataService Data
+@inject AuthService Auth
 
 <h3>Đăng nhập</h3>
 
@@ -15,7 +16,7 @@ else
         <input type="password" @bind="password" placeholder="Password" /><br />
         <button @onclick="LoginAccount">Login</button>
 
-       
+
 
     </div>
 }
@@ -26,11 +27,6 @@ else
     private string password;
     private bool isAuthenticated = false;
     private string loggedInUsername = "";
-
-    [Inject]
-    private DataService Data { get; set; }
-    [Inject]
-    private AuthService Auth { get; set; }
 
     private async Task LoginAccount()
     {
@@ -51,4 +47,4 @@ else
         loggedInUsername = "";
         // Thực hiện các thao tác cần thiết để đăng xuất (nếu có)
     }
-    }
+}

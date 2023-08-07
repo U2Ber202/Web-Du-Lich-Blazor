@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\trann\\source\\repos\\Web-Du-Lich-Blazor-2\\Website Du lich\\Website Du lich\\Website Du lich.csproj": {}
+    "D:\\GitHub\\Web-Du-Lich-Blazor\\Website Du lich\\Website Du lich.csproj": {}
   },
   "projects": {
-    "C:\\Users\\trann\\source\\repos\\Web-Du-Lich-Blazor-2\\Website Du lich\\Website Du lich\\Website Du lich.csproj": {
+    "D:\\GitHub\\Web-Du-Lich-Blazor\\Website Du lich\\Website Du lich.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trann\\source\\repos\\Web-Du-Lich-Blazor-2\\Website Du lich\\Website Du lich\\Website Du lich.csproj",
+        "projectUniqueName": "D:\\GitHub\\Web-Du-Lich-Blazor\\Website Du lich\\Website Du lich.csproj",
         "projectName": "Website Du lich",
-        "projectPath": "C:\\Users\\trann\\source\\repos\\Web-Du-Lich-Blazor-2\\Website Du lich\\Website Du lich\\Website Du lich.csproj",
-        "packagesPath": "C:\\Users\\trann\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trann\\source\\repos\\Web-Du-Lich-Blazor-2\\Website Du lich\\Website Du lich\\obj\\",
+        "projectPath": "D:\\GitHub\\Web-Du-Lich-Blazor\\Website Du lich\\Website Du lich.csproj",
+        "packagesPath": "C:\\Users\\tedok\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\Web-Du-Lich-Blazor\\Website Du lich\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\trann\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\tedok\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,8 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -84,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

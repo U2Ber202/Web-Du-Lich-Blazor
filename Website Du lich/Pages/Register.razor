@@ -1,4 +1,5 @@
 ﻿@page "/register"
+@inject AuthService Auth
 
 <h3>Đăng ký tài khoản</h3>
 
@@ -25,9 +26,6 @@
     private string newAddress;
     private DateTime newDateOfBirth;
     private string newGender;
-
-    [Inject]
-    private AuthService Auth { get; set; }
 
     private async Task RegisterAccount()
     {
