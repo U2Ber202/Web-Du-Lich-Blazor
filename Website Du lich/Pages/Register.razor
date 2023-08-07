@@ -1,0 +1,48 @@
+﻿@page "/register"
+
+<h3>Đăng ký tài khoản</h3>
+
+<div>
+    <input type="text" @bind="newUsername" placeholder="Username" /><br />
+    <input type="password" @bind="newPassword" placeholder="Password" /><br />
+    <input type="text" @bind="newFullName" placeholder="Full Name" /><br />
+    <input type="text" @bind="newEmail" placeholder="Email" /><br />
+    <input type="text" @bind="newPhone" placeholder="Phone" /><br />
+    <input type="text" @bind="newAddress" placeholder="Address" /><br />
+    <input type="date" @bind="newDateOfBirth" /><br />
+    <input type="text" @bind="newGender" placeholder="Gender" /><br />
+    <button @onclick="RegisterAccount">Đăng ký</button>
+</div>
+
+<a href="/" class="btn btn-primary">Quay lại trang chủ</a>
+
+@code {
+    private string newUsername;
+    private string newPassword;
+    private string newFullName;
+    private string newEmail;
+    private string newPhone;
+    private string newAddress;
+    private DateTime newDateOfBirth;
+    private string newGender;
+
+    [Inject]
+    private AuthService Auth { get; set; }
+
+    private async Task RegisterAccount()
+    {
+        bool registrationResult = await Auth.RegisterAccount(newUsername, newPassword, newFullName, newEmail, newPhone, newAddress, newDateOfBirth, newGender);
+
+        if (registrationResult)
+        {
+            // Đăng ký thành công, bạn có thể thực hiện chuyển hướng người dùng đến trang đăng nhập hoặc thông báo thành công
+            // Ví dụ: NavigationManager.NavigateTo("/login");
+
+
+        }
+        else
+        {
+            // Đăng ký thất bại, bạn có thể hiển thị thông báo lỗi hoặc xử lý tùy theo tình huống
+        }
+    }
+}

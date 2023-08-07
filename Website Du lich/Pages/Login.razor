@@ -1,0 +1,54 @@
+﻿@page "/login"
+
+
+<h3>Đăng nhập</h3>
+
+@if (isAuthenticated)
+{
+    <p style="position: absolute; top: 10px; right: 10px;">Welcome, @loggedInUsername!</p>
+    <button @onclick="Logout" style="position: absolute; top: 40px; right: 10px;">Logout</button>
+}
+else
+{
+    <div>
+        <input type="text" @bind="username" placeholder="Username" /><br />
+        <input type="password" @bind="password" placeholder="Password" /><br />
+        <button @onclick="LoginAccount">Login</button>
+
+       
+
+    </div>
+}
+<a href="/" class="btn btn-primary">Quay về trang chủ</a>
+
+@code {
+    private string username;
+    private string password;
+    private bool isAuthenticated = false;
+    private string loggedInUsername = "";
+
+    [Inject]
+    private DataService Data { get; set; }
+    [Inject]
+    private AuthService Auth { get; set; }
+
+    private async Task LoginAccount()
+    {
+        isAuthenticated = await Auth.CheckUserCredentials(username, password);
+        if (isAuthenticated)
+        {
+            loggedInUsername = await Data.GetFullNameByUsername(username);
+            // Nếu bạn cần lưu thông tin đăng nhập, bạn có thể thực hiện ở đây
+        }
+        else
+        {
+            // Xử lý khi xác thực thất bại
+        }
+    }
+    private async Task Logout()
+    {
+        isAuthenticated = false;
+        loggedInUsername = "";
+        // Thực hiện các thao tác cần thiết để đăng xuất (nếu có)
+    }
+    }

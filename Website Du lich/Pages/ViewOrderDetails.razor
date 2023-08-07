@@ -1,0 +1,121 @@
+﻿@page "/viewallorder"
+@using Website_Du_lich.Context
+@using Website_Du_lich.Data
+@inject DataService dataService
+
+<h3>ViewOrderDetails</h3>
+
+@if (historyObj is null)
+{
+    <p><em>No transaction have been created!!</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Order No
+                </th>
+                <th>
+                    Total Amount
+                </th>
+                <th>
+                    Status
+                </th>
+                <th>
+                    Customer No
+                </th>
+                <th>
+                    FullName
+                </th>
+                <th>
+                    Car No
+                </th>
+                <th>
+                    Car Model
+                </th>
+                <th>
+                    Car Type
+                </th>
+                <th>
+                    Shuttle No
+                </th>
+                <th>
+                    Pickup Location
+                </th>
+                <th>
+                    DropOff Location
+                </th>
+                <th>
+                    Hotel No
+                </th>
+                <th>
+                    Hotel Name
+                </th>
+                <th>
+                    Hotel Address
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var history in historyObj)
+            {
+                <tr>
+                    <td>
+                        @history.OrderId
+                    </td>
+                    <td>
+                        @history.TotalAmount
+                    </td>
+                    <td>
+                        @history.Status
+                    </td>
+                    <td>
+                        @history.CustomerId
+                    </td>
+                    <td>
+                        @history.FullName
+                    </td>
+                    <td>
+                        @(history.CarId == null ? "-" : history.CarId.ToString())
+                    </td>
+                    <td>
+                        @(history.CarModel == null ? "-" : history.CarModel)
+                    </td>
+                    <td>
+                        @(history.CarType == null ? "-" : history.CarType)
+                    </td>
+                    <td>
+                        @(history.SBId == null ? "-" : history.SBId.ToString())
+                    </td>
+                    <td>
+                        @(history.PickupLocation == null ? "-" : history.PickupLocation)
+                    </td>
+                    <td>
+                        @(history.DropOffLocation == null ? "-" : history.DropOffLocation)
+                    </td>
+                    <td>
+                        @(history.HotelId == null ? "-" : history.HotelId.ToString())
+                    </td>
+                    <td>
+                        @(history.HotelName == null ? "-" : history.HotelName)
+                    </td>
+                    <td>
+                        @(history.Address == null ? "-" : history.Address)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+
+@code {
+    List<dynamic> historyObj;
+    protected override async Task OnInitializedAsync()
+    {
+        historyObj = await Task.Run(() => dataService.GetOrderDetailsAsync());
+    }
+}

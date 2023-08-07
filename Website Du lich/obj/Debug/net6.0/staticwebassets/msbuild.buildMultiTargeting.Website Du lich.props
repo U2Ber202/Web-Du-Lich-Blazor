@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Website Du lich.props" />
+</Project>
