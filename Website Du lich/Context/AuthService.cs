@@ -13,7 +13,58 @@ namespace Website_Du_lich.Context
         {
             _dbContext = dbContext;
         }
+        private async Task<bool> CheckUsernameExists(string username)
+        {
+            using (SqlConnection connection = new SqlConnection(_dbContext.Database.GetDbConnection().ConnectionString))
+            {
+                string query = "SELECT COUNT(*) FROM Accounts WHERE Username = @Username";
+                var parameters = new { Username = username };
+                int count = await connection.ExecuteScalarAsync<int>(query, parameters);
+                return count > 0;
+            }
+        }
 
+        private async Task<bool> CheckEmailExists(string email)
+        {
+            using (SqlConnection connection = new SqlConnection(_dbContext.Database.GetDbConnection().ConnectionString))
+            {
+                string query = "SELECT COUNT(*) FROM Customers WHERE Email = @Email";
+                var parameters = new { Email = email };
+                int count = await connection.ExecuteScalarAsync<int>(query, parameters);
+                return count > 0;
+            }
+        }
+
+        private async Task<bool> CheckPhoneExists(string phone)
+        {
+            using (SqlConnection connection = new SqlConnection(_dbContext.Database.GetDbConnection().ConnectionString))
+            {
+                string query = "SELECT COUNT(*) FROM Customers WHERE Phone = @Phone";
+                var parameters = new { Phone = phone };
+                int count = await connection.ExecuteScalarAsync<int>(query, parameters);
+                return count > 0;
+            }
+        }
+        public async Task<bool> CheckRegister(string username, string email, string phone)
+        {
+            if (string.IsNullOrWhiteSpace(username) ||
+                string.IsNullOrWhiteSpace(email) ||
+                string.IsNullOrWhiteSpace(phone))
+            {
+                return false;
+            }
+
+            bool usernameExists = await CheckUsernameExists(username);
+            bool emailExists = await CheckEmailExists(email);
+            bool phoneExists = await CheckPhoneExists(phone);
+
+            if (usernameExists || emailExists || phoneExists)
+            {
+                return false;
+            }
+
+            return true;
+        }
         public async Task<bool> CheckUserCredentials(string username, string password)
         {
             if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))

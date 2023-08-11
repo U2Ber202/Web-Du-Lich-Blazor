@@ -1,48 +1,154 @@
 ﻿@page "/register"
-
+@inject NavigationManager NavigationManager
 <h3>Đăng ký tài khoản</h3>
 
 <div>
-    <input type="text" @bind="newUsername" placeholder="Username" /><br />
-    <input type="password" @bind="newPassword" placeholder="Password" /><br />
-    <input type="text" @bind="newFullName" placeholder="Full Name" /><br />
-    <input type="text" @bind="newEmail" placeholder="Email" /><br />
-    <input type="text" @bind="newPhone" placeholder="Phone" /><br />
-    <input type="text" @bind="newAddress" placeholder="Address" /><br />
-    <input type="date" @bind="newDateOfBirth" /><br />
-    <input type="text" @bind="newGender" placeholder="Gender" /><br />
+    @foreach (var field in Fields)
+    {
+        <input type="@field.Type" @bind="field.Value" placeholder="@field.Placeholder" @onblur="() => CheckField(field)" />
+
+        <br />
+        <span style="color: red;">@field.ErrorMessage</span>
+
+        <br />
+    }
+
+    @if (!string.IsNullOrWhiteSpace(errorMessage))
+    {
+        <p style="color: red;">@errorMessage</p>
+    }
+
     <button @onclick="RegisterAccount">Đăng ký</button>
+
+    @if (isRegisterClicked && isInputInvalid())
+    {
+        <p style="color: red;">Vui lòng điền đầy đủ thông tin.</p>
+    }
 </div>
 
 <a href="/" class="btn btn-primary">Quay lại trang chủ</a>
 
 @code {
-    private string newUsername;
-    private string newPassword;
-    private string newFullName;
-    private string newEmail;
-    private string newPhone;
-    private string newAddress;
-    private DateTime newDateOfBirth;
-    private string newGender;
+    private class Field
+    {
+        public string Value { get; set; }
+        public string Type { get; set; }
+        public string Placeholder { get; set; }
+        public string ErrorMessage { get; set; }
+        public Action CheckFunction { get; set; }
+    }
+
+    private List<Field> Fields = new List<Field>();
+
+    private string errorMessage;
+    private bool isRegisterClicked = false;
 
     [Inject]
     private AuthService Auth { get; set; }
 
+    // Khởi tạo các trường và phương thức kiểm tra tại đây
+    private void InitializeFields()
+    {
+        Fields = new List<Field>
+        {
+            new Field { Value = "", Type = "text", Placeholder = "Username", CheckFunction = CheckUsernameField },
+            new Field { Value = "", Type = "password", Placeholder = "Password", CheckFunction = CheckPasswordField },
+            new Field { Value = "", Type = "text", Placeholder = "Full Name", CheckFunction = CheckFullNameField },
+            new Field { Value = "", Type = "text", Placeholder = "Email", CheckFunction = CheckEmailField },
+            new Field { Value = "", Type = "text", Placeholder = "Phone", CheckFunction = CheckPhoneField },
+            new Field { Value = "", Type = "text", Placeholder = "Address", CheckFunction = CheckAddressField },
+            new Field { Value = "", Type = "date", Placeholder = "Date of Birth", CheckFunction = CheckDateOfBirthField },
+            new Field { Value = "", Type = "text", Placeholder = "Gender", CheckFunction = CheckGenderField },
+        };
+    }
+
+    // Gọi hàm khởi tạo trường và phương thức kiểm tra khi component được khởi tạo
+    protected override void OnInitialized()
+    {
+        InitializeFields();
+        base.OnInitialized();
+    }
+
     private async Task RegisterAccount()
     {
-        bool registrationResult = await Auth.RegisterAccount(newUsername, newPassword, newFullName, newEmail, newPhone, newAddress, newDateOfBirth, newGender);
+        if (isInputInvalid())
+        {
+            errorMessage = "";
+            return;
+        }
+
+        bool isInputValid = await Auth.CheckRegister(Fields[0].Value, Fields[3].Value, Fields[4].Value);
+
+        if (!isInputValid)
+        {
+            errorMessage = "Tên người dùng, email hoặc số điện thoại đã tồn tại trong hệ thống.";
+            return;
+        }
+
+        isRegisterClicked = true;
+
+        bool registrationResult = await Auth.RegisterAccount(
+            Fields[0].Value, Fields[1].Value, Fields[2].Value, Fields[3].Value,
+            Fields[4].Value, Fields[5].Value, DateTime.Parse(Fields[6].Value), Fields[7].Value
+        );
 
         if (registrationResult)
         {
-            // Đăng ký thành công, bạn có thể thực hiện chuyển hướng người dùng đến trang đăng nhập hoặc thông báo thành công
-            // Ví dụ: NavigationManager.NavigateTo("/login");
-
-
+            NavigationManager.NavigateTo("/login");
         }
         else
         {
-            // Đăng ký thất bại, bạn có thể hiển thị thông báo lỗi hoặc xử lý tùy theo tình huống
+            // Xử lý đăng ký thất bại tại đây
         }
+    }
+
+    private bool isInputInvalid()
+    {
+        return Fields.Any(field => string.IsNullOrWhiteSpace(field.Value) || !string.IsNullOrWhiteSpace(field.ErrorMessage));
+    }
+
+    private void CheckField(Field field)
+    {
+        field.ErrorMessage = string.IsNullOrWhiteSpace(field.Value) ? $"Vui lòng nhập {field.Placeholder.ToLower()}." : "";
+        field.CheckFunction.Invoke();
+    }
+
+    private void CheckUsernameField()
+    {
+        Fields[0].ErrorMessage = string.IsNullOrWhiteSpace(Fields[0].Value) ? "Vui lòng nhập tên người dùng." : "";
+    }
+
+    private void CheckPasswordField()
+    {
+        Fields[1].ErrorMessage = string.IsNullOrWhiteSpace(Fields[1].Value) ? "Vui lòng nhập mật khẩu." : "";
+    }
+    private void CheckFullNameField()
+    {
+        Fields[2].ErrorMessage = string.IsNullOrWhiteSpace(Fields[2].Value) ? "Vui lòng nhập họ tên đầy đủ." : "";
+    }
+
+    private void CheckEmailField()
+    {
+        Fields[3].ErrorMessage = string.IsNullOrWhiteSpace(Fields[3].Value) ? "Vui lòng nhập địa chỉ email." : "";
+    }
+
+    private void CheckPhoneField()
+    {
+        Fields[4].ErrorMessage = string.IsNullOrWhiteSpace(Fields[4].Value) ? "Vui lòng nhập số điện thoại." : "";
+    }
+
+    private void CheckAddressField()
+    {
+        Fields[5].ErrorMessage = string.IsNullOrWhiteSpace(Fields[5].Value) ? "Vui lòng nhập địa chỉ." : "";
+    }
+
+    private void CheckDateOfBirthField()
+    {
+        Fields[6].ErrorMessage = Fields[6].Value == default ? "Vui lòng chọn ngày sinh." : "";
+    }
+
+    private void CheckGenderField()
+    {
+        Fields[7].ErrorMessage = string.IsNullOrWhiteSpace(Fields[7].Value) ? "Vui lòng nhập giới tính." : "";
     }
 }
